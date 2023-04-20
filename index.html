@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammer Cheak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Online Character Counter & grammer checker</h2>
+        <p>Check your English for Grammer, Spellings and Punctuation errors</p>
+
+        <textarea id="textarea" class="textarea" maxlength="200" placeholder="Put your text here"></textarea>
+        <button onclick="copy()">Copy Text</button>
+        <div class="info">
+            <p>Number of character: <span id="counter">0</span></p>
+            <p>Number of character left: <span id="left">200</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
